@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.Arnav_The_Great.noinvalidsessionid.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "JoinMultiplayerScreenMixin",
+    "MinecraftAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

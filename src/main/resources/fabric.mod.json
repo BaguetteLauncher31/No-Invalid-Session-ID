@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "no_invalid_session_id",
+  "version": "${version}",
+  "name": "No Invalid Session ID",
+  "description": "Silently refreshes your session when opening the multiplayer screen.",
+  "authors":[
+    "Arnav_The_Great"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/no_invalid_session_id/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client":[
+      "com.Arnav_The_Great.noinvalidsessionid.client.NoinvalidsessionidClient"
+    ]
+  },
+  "mixins":[
+    "no_invalid_session_id.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-api": "*",
+    "minecraft": "26.1.*"
+  }
+}
